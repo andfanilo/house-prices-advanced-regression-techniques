@@ -1,0 +1,24 @@
+name: house-prices-advanced-regression-techniques
+channels:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+- invoke
+- jupyter
+- jupyterlab
+- matplotlib
+- numpy
+- pandas
+- pandas-profiling
+- path.py
+- python=3
+- scikit-learn
+- seaborn
+- statsmodels
+- pip:
+  - h2o
+  - kaggle
+  - keras
+  - lightgbm
+  - pyspark
